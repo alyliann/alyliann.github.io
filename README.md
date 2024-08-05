@@ -1,8 +1,6 @@
 # Alysa Vega's Portfolio
 For CUNY Tech Prep
 
-photo here
-
 ### Bio
 Hi! I'm Alysa, a CUNY Hunter College student majoring in Computer Science and minoring in Media Studies. I love reading fantasy, watching thrillers, making and playing games of all kinds, and going on roadtrips.
 
