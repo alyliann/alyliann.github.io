@@ -11,8 +11,13 @@
     margin-left: 150px;
 }
 
-.left-col h1 {
+.left-col h1, h3 {
     text-align: center;
+    line-height: 15px;
+}
+
+.left-col h1 {
+    padding-top: 75px;
 }
 
 .avatar {
@@ -37,4 +42,16 @@
 
 .main {
     margin-left: 475px;
+    margin-right: 150px;
+}
+
+.section-headers {
+    font-size: 1.4em;
+    font-weight: bold;
+    display: block;
+    padding-top: 40px;
+}
+
+.links-body {
+    display: block;
 }
