@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/* Left Column */
 .left-col {
     background-color: pink;
     width: 300px;
@@ -40,6 +41,11 @@
     line-height: 40px;
 }
 
+.col-sections:hover a {
+    text-decoration: none;
+}
+
+/* Main Section of Page */
 .main {
     margin-left: 475px;
     margin-right: 150px;
@@ -50,8 +56,74 @@
     font-weight: bold;
     display: block;
     padding-top: 40px;
+    text-decoration: none !important;
 }
 
 .links-body {
     display: block;
+}
+
+/* Link Buttons */
+.linkedin-btn {
+    color: aliceblue;
+    background-color: #0077B5 !important;
+    border-color: #007fc4 !important;
+}
+
+.linkedin-btn img {
+    padding-bottom: 3px;
+}
+
+.linkedin-btn:hover {
+    color: aliceblue !important;
+    background-color: #00527e !important;
+    border-color: #135d85 !important;
+}
+
+.github-btn {
+    color: aliceblue;
+    background-color: #2c2c2c !important;
+    border-color: #333333 !important;
+}
+
+.github-btn img {
+    padding-bottom: 3px;
+}
+
+.github-btn:hover {
+    color: aliceblue !important;
+    background-color: #151515 !important;
+    border-color: #2c2c2c !important;
+}
+
+.leetcode-btn {
+    color: #333333;
+    background-color: #e6e6e6 !important;
+    border-color: #e1e1e1 !important;
+}
+
+.leetcode-btn img {
+    padding-bottom: 3px;
+}
+
+.leetcode-btn:hover {
+    color: 333333 !important;
+    background-color: #c8c8c8 !important;
+    border-color: #c0c0c0 !important;
+}
+
+.itchio-btn {
+    color: aliceblue;
+    background-color: #ff5c5a !important;
+    border-color: #e1514e !important;
+}
+
+.itchio-btn img {
+    padding-bottom: 3px;
+}
+
+.itchio-btn:hover {
+    color: aliceblue !important;
+    background-color: #e1514e !important;
+    border-color: #c93e3c !important;
 }
