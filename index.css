@@ -59,11 +59,12 @@
     text-decoration: none !important;
 }
 
+/* Links Section */
 .links-body {
     display: block;
+    padding-top: 25px
 }
 
-/* Link Buttons */
 .linkedin-btn {
     color: aliceblue;
     background-color: #0077B5 !important;
@@ -115,7 +116,7 @@
 .itchio-btn {
     color: aliceblue;
     background-color: #ff5c5a !important;
-    border-color: #e1514e !important;
+    border-color: #ff6c6a !important;
 }
 
 .itchio-btn img {
@@ -125,5 +126,37 @@
 .itchio-btn:hover {
     color: aliceblue !important;
     background-color: #e1514e !important;
-    border-color: #c93e3c !important;
+    border-color: #e35653 !important;
+}
+
+/* Skills Section */
+.skills-type {
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px gray;
+    margin-top: 25px;
+}
+
+.skills-body h3 {
+    text-align: left;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(225, 225, 225);
+    border-left: 100px;
+}
+
+.skills-body figure {
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.skills-body figcaption {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.skills-figures {
+    padding-left: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
