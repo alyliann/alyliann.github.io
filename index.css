@@ -34,8 +34,8 @@ html {
 
 .col-links {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
+    margin: auto;
     padding-top: 2vh;
 }
 
