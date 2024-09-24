@@ -153,11 +153,13 @@ html {
 
 .experience-date p {
     text-align: left;
+    color: #7a7a7a;
 }
 
 .experience-location {
     display: inline-block;
     width: 50%;
+    color: #7a7a7a;
 }
 
 .experience-location p {
@@ -165,7 +167,30 @@ html {
 }
 
 /* Education Section */
+.education {
+    
+}
 
+.education-heading {
+    display: inline;
+}
+
+.education-heading h4 {
+    color: #7a7a7a;
+}
+
+.education-subheading {
+    
+}
+
+.education-details {
+
+}
+
+.education-courses {
+    display: inline-block;
+    text-align: center;
+}
 
 /* Projects Section */
 
