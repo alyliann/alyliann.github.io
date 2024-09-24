@@ -6,7 +6,7 @@ html {
 
 /* Left Column */
 .left-col {
-    background-color: rgb(239, 171, 218);
+    background-color: #efabda;
     width: 300px;
     height: 110vh;
     float: left;
@@ -14,6 +14,7 @@ html {
     overflow-x: hidden;  /* Prevents scrolling away from sidebar */
     margin-top: -2vh;
     margin-left: 10vw;
+    box-shadow: 1px 1px 5px #e554b7;
 }
 
 .left-col h1, h3 {
@@ -70,8 +71,8 @@ html {
     text-decoration: none !important;
 }
 
-/* Skills Section */
-.skills-type {
+.skills-type,
+.experience {
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -80,10 +81,9 @@ html {
     margin-top: 25px;
 }
 
+/* Skills Section */
 .skills-body h3 {
     text-align: left;
-    /* padding-bottom: 10px; */
-    /* border-bottom: 1px solid rgb(225, 225, 225); */
     border-left: 100px;
 }
 
@@ -104,48 +104,56 @@ html {
 }
 
 /* Experience Section */
-.experience {
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
-    border: 1px solid white;
-    box-shadow: 1px 1px 5px gray;
-    margin-top: 25px;
-}
-
 .experience-heading {
     display: inline;
-    position: relative;
-    padding-bottom: 10px;
     border-left: 100px;
-}
-
-.experience-heading h3 {
-    float: left;
     margin-top: 25px;
 }
 
-.experience-heading h4 {
-    float: right;
-    padding-top: 25px;
+.experience-heading div {
+    margin-bottom: -10%;
 }
 
-.experience-details {
-    padding-top: 6%;
+.experience-position {
+    display: inline-block;
+    width: 49%;
 }
 
-.experience-footer {
-    bottom: 0;
+.experience-position h3 {
+    text-align: left;
+}
+
+.experience-company {
+    display: inline-block;
+    width: 50%;
+}
+
+.experience-company h4 {
+    text-align: right;
 }
 
 .experience-date {
-    float: left;
+    display: inline-block;
+    width: 49%;
+}
+
+.experience-date p {
+    text-align: left;
 }
 
 .experience-location {
-    float: right;
+    display: inline-block;
+    width: 50%;
 }
 
+.experience-location p {
+    text-align: right;
+}
+
+/* Education Section */
+
+
+/* Projects Section */
 
 
 /* Links Section */
