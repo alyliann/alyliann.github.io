@@ -31,7 +31,6 @@ html {
     margin-left: auto;
     margin-right: auto;
     width: 82%;
-    
 }
 
 .col-links {
@@ -73,7 +72,9 @@ html {
 }
 
 .skills-type,
-.experience {
+.experience,
+.education,
+.projects {
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -172,11 +173,19 @@ html {
 }
 
 .education-heading {
-    display: inline;
+    
 }
 
-.education-heading h4 {
+.education-title {
+    display: inline-block;
+    margin-left: -1.5%;
+    width: 75%;
+}
+
+.education-time {
+    display: inline-block;
     color: #7a7a7a;
+    width: 24%;
 }
 
 .education-subheading {
@@ -188,12 +197,34 @@ html {
 }
 
 .education-courses {
-    display: inline-block;
     text-align: center;
 }
 
 /* Projects Section */
+.project-header {
+    position: relative;
+}
 
+.project-header h3, .project-header a {
+    text-align: left;
+}
+
+.project-title {
+
+}
+
+.project-tools {
+    text-align: center;
+}
+
+.project-tools .badge {
+    color: #000000;
+    background-color: #9ae677 !important;
+}
+
+.project-time {
+    color: #7a7a7a;
+}
 
 /* Links Section */
 .links-body {
