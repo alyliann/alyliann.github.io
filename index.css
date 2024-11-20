@@ -103,12 +103,12 @@ html {
 }
 
 /* Education Section */
-.education {
+.education p {
     
 }
 
 .education-heading {
-    
+    margin-bottom: -2%;
 }
 
 .education-title {
@@ -128,7 +128,8 @@ html {
 }
 
 .education-details {
-
+    margin-left: 3%;
+    font-size: medium;
 }
 
 .education-courses {
