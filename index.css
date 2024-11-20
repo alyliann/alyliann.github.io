@@ -166,6 +166,11 @@ html {
     text-align: center;
 }
 
+.experience-tools .badge {
+    color: #000000;
+    background-color: #efabda !important;
+}
+
 .experience-date {
     display: inline-block;
     width: 49%;
