@@ -91,6 +91,14 @@ html {
     padding-top: 15px;
 }
 
+.icebreaker {
+    display: inline-block;
+}
+
+.icebreaker h4 {
+    font-weight: bold;
+}
+
 .skills-type,
 .experience,
 .education,
@@ -135,6 +143,7 @@ html {
 
 .education-courses {
     text-align: center;
+    margin-bottom: 1%;
 }
 
 .badge {
@@ -200,7 +209,8 @@ html {
 }
 
 .experience-details {
-    padding-bottom: 2%;
+    font-size: medium;
+    padding-bottom: 1%;
 }
 
 .experience-tools {
@@ -228,24 +238,30 @@ html {
 }
 
 /* Projects Section */
-.project-header {
-    position: relative;
-}
-
-.project-header h3, .project-header a {
-    text-align: left;
+.project-heading {
+    margin-bottom: -2%;
 }
 
 .project-title {
+    display: inline-block;
+    width: 50%;
+}
 
+.project-time {
+    display: inline-block;
+    text-align: right;
+    color: #7a7a7a;
+    width: 49%;
+}
+
+.project-details {
+    font-size: medium;
+    margin-bottom: 2%;
 }
 
 .project-tools {
     text-align: center;
-}
-
-.project-time {
-    color: #7a7a7a;
+    margin-bottom: 1%;
 }
 
 /* Links Section */
