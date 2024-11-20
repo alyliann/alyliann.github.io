@@ -124,11 +124,11 @@ html {
 }
 
 .education-subheading {
-    
+    margin-left: 3%;
 }
 
 .education-details {
-    margin-left: 3%;
+    margin-left: 6%;
     font-size: medium;
 }
 
@@ -158,7 +158,8 @@ html {
 }
 
 .skills-figures {
-    padding-left: 3%;
+    text-align: center;
+    /* padding-left: 3%; */
     margin-top: 30px;
     margin-bottom: 30px;
 }
