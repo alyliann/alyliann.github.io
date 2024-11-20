@@ -102,6 +102,44 @@ html {
     margin-top: 25px;
 }
 
+/* Education Section */
+.education {
+    
+}
+
+.education-heading {
+    
+}
+
+.education-title {
+    display: inline-block;
+    margin-left: -1.5%;
+    width: 75%;
+}
+
+.education-time {
+    display: inline-block;
+    color: #7a7a7a;
+    width: 24%;
+}
+
+.education-subheading {
+    
+}
+
+.education-details {
+
+}
+
+.education-courses {
+    text-align: center;
+}
+
+.badge {
+    color: #FFFFFF;
+    background-color: ##b33d95 !important;
+}
+
 /* Skills Section */
 .skills-body h3 {
     text-align: left;
@@ -166,11 +204,6 @@ html {
     text-align: center;
 }
 
-.experience-tools .badge {
-    color: #FFFFFF;
-    background-color: ##b33d95 !important;
-}
-
 .experience-date {
     display: inline-block;
     width: 49%;
@@ -189,39 +222,6 @@ html {
 
 .experience-location p {
     text-align: right;
-}
-
-/* Education Section */
-.education {
-    
-}
-
-.education-heading {
-    
-}
-
-.education-title {
-    display: inline-block;
-    margin-left: -1.5%;
-    width: 75%;
-}
-
-.education-time {
-    display: inline-block;
-    color: #7a7a7a;
-    width: 24%;
-}
-
-.education-subheading {
-    
-}
-
-.education-details {
-
-}
-
-.education-courses {
-    text-align: center;
 }
 
 /* Projects Section */
