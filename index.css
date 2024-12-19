@@ -119,10 +119,6 @@ body {
     background-color: #b33d95;
 }
 
-.top-nav a:active {
-    background-color: #b33d95 !important;
-}
-
 .top-self {
     text-align: center;
     background-color: #f5d4eb;
