@@ -238,9 +238,13 @@ body {
     font-size: medium;
     color: #343434;
 }
+.education-details p {
+    margin-bottom: 0;
+}
 
 .education-courses {
     text-align: center;
+    margin-top: 2%;
     margin-bottom: 1%;
 }
 
