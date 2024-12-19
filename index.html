@@ -61,22 +61,22 @@
         </a>
       </div>
       <nav class="col-sections">
-        <a href="#about">About Me</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#links">Links</a>
+        <a onclick="removeURLAnchor()" href="#about">About Me</a>
+        <a onclick="removeURLAnchor()" href="#education">Education</a>
+        <a onclick="removeURLAnchor()" href="#skills">Skills</a>
+        <a onclick="removeURLAnchor()" href="#experience">Experience</a>
+        <a onclick="removeURLAnchor()" href="#projects">Projects</a>
+        <a onclick="removeURLAnchor()" href="#links">Links</a>
       </nav>
     </aside>
     <div class="top">
       <nav class="top-nav">
-        <a href="#about">About</a>
-        <a href="#education">Education</a>
-        <a href="#skills">Skills</a>
-        <a href="#experience">Experience</a>
-        <a href="#projects">Projects</a>
-        <a href="#links">Links</a>
+        <a onclick="removeURLAnchor()" href="#about">About</a>
+        <a onclick="removeURLAnchor()" href="#education">Education</a>
+        <a onclick="removeURLAnchor()" href="#skills">Skills</a>
+        <a onclick="removeURLAnchor()" href="#experience">Experience</a>
+        <a onclick="removeURLAnchor()" href="#projects">Projects</a>
+        <a onclick="removeURLAnchor()" href="#links">Links</a>
       </nav>
       <div class="top-self">
           <div class="avatar">
@@ -577,5 +577,14 @@
         </div>
       </div>
     </div>
+    <script>
+      history.scrollRestoration = "manual";
+
+      const removeURLAnchor = () => {
+        setTimeout(() => {
+          window.history.replaceState({}, "", window.location.href.split("#")[0]);
+        }, 100);
+      };
+    </script>
   </body>
 </html>
