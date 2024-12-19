@@ -24,7 +24,6 @@ body {
 /* Left Column */
 .left-nav {
     margin-top: -2vh;
-    /* margin-left: 10vw; */
     box-shadow: 1px 1px 5px #e554b7;
 	float: left;
 	width: 300px;
@@ -36,7 +35,7 @@ body {
 	transition: 0.5s;
 }
 
-.left-nav h1, .left-nav h3 {
+.left-nav h1, .left-nav h4 {
     text-align: center;
     line-height: 75%;
 }
@@ -45,8 +44,15 @@ body {
     padding-top: 10vh;
 }
 
-.left-nav h1:hover, .left-nav h3:hover {
+.left-nav h1:hover {
     color: #b33d95;
+}
+
+.left-nav h4 {
+    margin-top: 2vh;
+    font-size: 20px;
+    margin-bottom: 2vh;
+    color: #4b4b4b;
 }
 
 .avatar {
