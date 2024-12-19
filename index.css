@@ -159,31 +159,31 @@ body {
 
 @media screen and (max-width: 550px) {
 	.section-headers {
-		font-size: 2.5cqmax !important;
+		font-size: 3cqmax !important;
 	}
     .education-title h3 {
-        font-size: 2cqmax !important;
+        font-size: 2.5cqmax !important;
     }
     .education-time h4 {
-        font-size: 1.5cqmax !important;
+        font-size: 2cqmax !important;
     }
     .education-subheading h4 {
-        font-size: 1.8cqmax !important;
+        font-size: 2.3cqmax !important;
     }
     .skills-type h3 {
-        font-size: 2cqmax !important;
+        font-size: 2.5cqmax !important;
     }
     .experience-position h3 {
-        font-size: 2cqmax !important;
+        font-size: 2.5cqmax !important;
     }
     .experience-company h4 {
-        font-size: 1.5cqmax !important;
-    }
-    .project-title h3 {
         font-size: 2cqmax !important;
     }
+    .project-title h3 {
+        font-size: 2.5cqmax !important;
+    }
     .project-time h4 {
-        font-size: 1.5cqmax !important;
+        font-size: 2cqmax !important;
     }
 }
 
