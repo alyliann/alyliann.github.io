@@ -125,6 +125,7 @@ body {
 
 .top-self {
     text-align: center;
+    background-color: #f5d4eb;
 }
 
 .top-self img {
@@ -143,7 +144,7 @@ body {
     color: #7a7a7a;
 }
 
-.top hr {
+.top-self hr {
     border: 1px solid #efabda;
     box-shadow: 0.5px 0.5px 10px #efabda;
 }
