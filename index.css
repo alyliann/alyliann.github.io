@@ -1,12 +1,10 @@
 html {
     overflow: auto;
-    margin: 0 !important;
-    padding: 0 !important;
 }
 
 body {
-    margin: 0 !important;
-    padding: 0 !important;
+    max-width: 1170px;
+	margin: 0 auto;
 }
 
 @media (max-width: 768px) {
@@ -25,41 +23,18 @@ body {
 
 /* Left Column */
 .left-nav {
-    /* background-color: #efabda;
-    color: white;
-    width: 20vw;
-    min-width: 100px;
-    height: 110vh;
-    float: left;
-    position: fixed;
-    overflow-x: hidden;  /* Prevents scrolling away from sidebar */
     margin-top: -2vh;
-    margin-left: 10vw;
+    /* margin-left: 10vw; */
     box-shadow: 1px 1px 5px #e554b7;
-    /* padding-top: 3em; */
-	/* padding-bottom: 1px; */
 	float: left;
 	width: 300px;
     height: 110vh;
 	position: fixed;
-	/* z-index: 1001; */
 	background-color: #efabda;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
 }
-
-/* body.offcanvas .left-nav {
-	-moz-transform: translateX(0);
-	-webkit-transform: translateX(0);
-	-ms-transform: translateX(0);
-	-o-transform: translateX(0);
-	transform: translateX(0);
-	width: 300px;
-	background-color: #e554b7;
-	z-index: 999;
-	position: fixed;
-} */
 
 .left-nav h1, .left-nav h3 {
     text-align: center;
@@ -173,12 +148,13 @@ body {
 
 /* Main Section of Page */
 .main {
-    width: calc(100% - 32vw);
+    width: calc(100% - 300px);
     float: right;
     padding-right: 3em;
 	-webkit-transition: 0.5s;
 	-o-transition: 0.5s;
 	transition: 0.5s;
+    padding: 0 4em;
 }
 
 @media screen and (max-width: 768px) {
