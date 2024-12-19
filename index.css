@@ -370,10 +370,16 @@ body {
 }
 
 /* Links Section */
+
+.links-header {
+    text-align: center;
+}
+
 .links-body {
     display: block;
     padding-top: 25px;
     padding-bottom: 3vh;
+    text-align: center;
 }
 
 .linkedin-btn {
