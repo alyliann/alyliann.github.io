@@ -218,14 +218,15 @@ body {
 
 .education-title {
     display: inline-block;
-    width: 75%;
+    width: 80%;
+    margin-left: 0.5vw;
 }
 
 .education-time {
     display: inline-block;
     text-align: right;
     color: #7a7a7a;
-    width: 24%;
+    width: 17%;
 }
 
 .education-subheading {
@@ -292,7 +293,8 @@ body {
 
 .experience-position {
     display: inline-block;
-    width: 49%;
+    width: 50%;
+    margin-left: 0.5vw;
 }
 
 .experience-position h3 {
@@ -301,7 +303,7 @@ body {
 
 .experience-company {
     display: inline-block;
-    width: 50%;
+    width: 47%;
 }
 
 .experience-company h4 {
@@ -351,13 +353,14 @@ body {
 .project-title {
     display: inline-block;
     width: 50%;
+    margin-left: 0.5vw;
 }
 
 .project-time {
     display: inline-block;
     text-align: right;
     color: #7a7a7a;
-    width: 49%;
+    width: 47%;
 }
 
 .project-details {
