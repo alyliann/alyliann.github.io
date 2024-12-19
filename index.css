@@ -9,15 +9,11 @@ body {
 
 @media (max-width: 768px) {
     .left-nav {
-		width: 300px;
 		-moz-transform: translateX(-400px);
 		-webkit-transform: translateX(-400px);
 		-ms-transform: translateX(-400px);
 		-o-transform: translateX(-400px);
 		transform: translateX(-400px);
-		padding-top: 4em;
-		background-color: #e554b7;
-		height: auto;
 	}
 }
 
@@ -90,9 +86,9 @@ body {
 }
 
 /* Top Section with avatar and name */
-@media (min-width: 768px) {
+@media (min-width: 769px) {
     .top {
-        display: none;
+       display: none;
     }
 }
 
