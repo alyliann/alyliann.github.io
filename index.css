@@ -282,7 +282,7 @@ body {
 }
 
 .skills-figures img {
-    width: 10cqb;
+    width: 9cqmin;
 }
 
 /* Experience Section */
@@ -332,7 +332,7 @@ body {
 
 .experience-date {
     display: inline-block;
-    width: 49%;
+    width: 50%;
 }
 
 .experience-date p {
@@ -342,7 +342,7 @@ body {
 
 .experience-location {
     display: inline-block;
-    width: 50%;
+    width: 47%;
     color: #7a7a7a;
 }
 
