@@ -187,6 +187,7 @@ body {
 .about-body {
     font-size: medium;
     line-height: 150%;
+    color: #343434;
 }
 
 .about-body p {
@@ -238,6 +239,7 @@ body {
 .education-details {
     margin-left: 6%;
     font-size: medium;
+    color: #343434;
 }
 
 .education-courses {
@@ -265,6 +267,8 @@ body {
     text-align: center;
     padding-top: 20px;
 }
+
+.skills-body 
 
 .skills-figures {
     text-align: center;
@@ -316,6 +320,7 @@ body {
 .experience-details {
     font-size: medium;
     padding-bottom: 1%;
+    color: #343434;
 }
 
 .experience-tools {
@@ -362,6 +367,7 @@ body {
 .project-details {
     font-size: medium;
     margin-bottom: 2%;
+    color: #343434;
 }
 
 .project-tools {
