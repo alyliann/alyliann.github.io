@@ -151,7 +151,41 @@ body {
 
 /* View-Width Scaling */
 
-/* Implement here */
+/* @media screen and (max-width: 768px) {
+	.section-headers {
+		font-size: 3cqmax !important;
+	}
+} */
+
+@media screen and (max-width: 550px) {
+	.section-headers {
+		font-size: 2.5cqmax !important;
+	}
+    .education-title h3 {
+        font-size: 2cqmax !important;
+    }
+    .education-time h4 {
+        font-size: 1.5cqmax !important;
+    }
+    .education-subheading h4 {
+        font-size: 1.8cqmax !important;
+    }
+    .skills-type h3 {
+        font-size: 2cqmax !important;
+    }
+    .experience-position h3 {
+        font-size: 2cqmax !important;
+    }
+    .experience-company h4 {
+        font-size: 1.5cqmax !important;
+    }
+    .project-title h3 {
+        font-size: 2cqmax !important;
+    }
+    .project-time h4 {
+        font-size: 1.5cqmax !important;
+    }
+}
 
 /* Main Section of Page */
 .main {
@@ -287,6 +321,11 @@ body {
 
 .skills-figures img {
     width: 9cqmin;
+}
+
+.long-logo {
+    height: 9cqmin;
+    width: auto !important;
 }
 
 /* Experience Section */
