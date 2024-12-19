@@ -214,9 +214,6 @@ body {
 }
 
 /* Education Section */
-.education p {
-    
-}
 
 .education-heading {
     margin-bottom: -2%;
@@ -271,9 +268,15 @@ body {
 
 .skills-figures {
     text-align: center;
-    /* padding-left: 3%; */
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 3vh;
+}
+
+.skills-figures figure {
+    margin-bottom: 3vh;
+}
+
+.skills-figures img {
+    width: 10cqb;
 }
 
 /* Experience Section */
