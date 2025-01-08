@@ -94,7 +94,7 @@ body {
 
 .top-nav {
     background-color: #d467b1;
-    overflow: hidden;
+    overflow: hidden !important;
     text-align: center;
     text-decoration: none;
     font-size: 24px;
