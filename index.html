@@ -1,648 +1,608 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
-    />
-    <link rel="stylesheet" href="index.css" />
-  </head>
 
-  <body>
-    <aside class="left-nav">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+  <aside class="left-nav">
+    <h1>Alysa Vega</h1>
+    <h4>she/her</h4>
+    <div class="avatar">
+      <img src="images/avatar.jpeg" alt="Headshot" class="img-circle" width="250" height="250" />
+    </div>
+    <div class="col-links">
+      <a class="btn linkedin-btn" href="https://www.linkedin.com/in/alysavega/">
+        <img src="images/LinkedIn_logo.png" alt="LinkedIn logo" width="18" height="20" />
+      </a>
+      <a class="btn github-btn" href="https://github.com/alyliann/">
+        <img src="images/GitHub_logo.png" alt="GitHub logo" width="18" height="20" />
+      </a>
+      <a class="btn leetcode-btn" href="https://leetcode.com/u/alyliann/">
+        <img src="images/LeetCode_logo.png" alt="LeetCode logo" width="18" height="20" />
+      </a>
+      <a class="btn btn-info itchio-btn" href="https://alyliann.itch.io/">
+        <img src="images/Itchio_logo.png" alt="itch.io logo" width="18" height="20" />
+      </a>
+    </div>
+    <nav class="col-sections">
+      <a onclick="removeURLAnchor()" href="#about">About Me</a>
+      <a onclick="removeURLAnchor()" href="#education">Education</a>
+      <a onclick="removeURLAnchor()" href="#skills">Skills</a>
+      <a onclick="removeURLAnchor()" href="#experience">Experience</a>
+      <a onclick="removeURLAnchor()" href="#projects">Projects</a>
+      <a onclick="removeURLAnchor()" href="#links">Links</a>
+    </nav>
+  </aside>
+  <div class="top">
+    <nav class="top-nav">
+      <a onclick="removeURLAnchor()" href="#about">About</a>
+      <a onclick="removeURLAnchor()" href="#education">Education</a>
+      <a onclick="removeURLAnchor()" href="#skills">Skills</a>
+      <a onclick="removeURLAnchor()" href="#experience">Experience</a>
+      <a onclick="removeURLAnchor()" href="#projects">Projects</a>
+      <a onclick="removeURLAnchor()" href="#links">Links</a>
+    </nav>
+    <div class="top-self">
+      <div class="avatar">
+        <img src="images/avatar.jpeg" alt="Headshot" class="img-circle" width="250" height="250" />
+      </div>
       <h1>Alysa Vega</h1>
       <h4>she/her</h4>
-      <div class="avatar">
-        <img
-          src="images/avatar.jpeg"
-          alt="Headshot"
-          class="img-circle"
-          width="250"
-          height="250"
-        />
-      </div>
-      <div class="col-links">
-        <a
-          class="btn linkedin-btn"
-          href="https://www.linkedin.com/in/alysavega/"
-        >
-          <img
-            src="images/LinkedIn_logo.png"
-            alt="LinkedIn logo"
-            width="18"
-            height="20"
-          />
-        </a>
-        <a class="btn github-btn" href="https://github.com/alyliann/">
-          <img
-            src="images/GitHub_logo.png"
-            alt="GitHub logo"
-            width="18"
-            height="20"
-          />
-        </a>
-        <a class="btn leetcode-btn" href="https://leetcode.com/u/alyliann/">
-          <img
-            src="images/LeetCode_logo.png"
-            alt="LeetCode logo"
-            width="18"
-            height="20"
-          />
-        </a>
-        <a class="btn btn-info itchio-btn" href="https://alyliann.itch.io/">
-          <img
-            src="images/Itchio_logo.png"
-            alt="itch.io logo"
-            width="18"
-            height="20"
-          />
-        </a>
-      </div>
-      <nav class="col-sections">
-        <a onclick="removeURLAnchor()" href="#about">About Me</a>
-        <a onclick="removeURLAnchor()" href="#education">Education</a>
-        <a onclick="removeURLAnchor()" href="#skills">Skills</a>
-        <a onclick="removeURLAnchor()" href="#experience">Experience</a>
-        <a onclick="removeURLAnchor()" href="#projects">Projects</a>
-        <a onclick="removeURLAnchor()" href="#links">Links</a>
-      </nav>
-    </aside>
-    <div class="top">
-      <nav class="top-nav">
-        <a onclick="removeURLAnchor()" href="#about">About</a>
-        <a onclick="removeURLAnchor()" href="#education">Education</a>
-        <a onclick="removeURLAnchor()" href="#skills">Skills</a>
-        <a onclick="removeURLAnchor()" href="#experience">Experience</a>
-        <a onclick="removeURLAnchor()" href="#projects">Projects</a>
-        <a onclick="removeURLAnchor()" href="#links">Links</a>
-      </nav>
-      <div class="top-self">
-        <div class="avatar">
-          <img
-            src="images/avatar.jpeg"
-            alt="Headshot"
-            class="img-circle"
-            width="250"
-            height="250"
-          />
+      <hr />
+    </div>
+  </div>
+  <div class="main">
+    <div id="about" class="about-section">
+      <a class="section-headers">About Me</a>
+      <div class="about-body">
+        <p>
+          Hi! I'm Alysa Vega, a recent Computer Science graduate from Hunter
+          College with a minor in Media Studies.
+        </p>
+        <p>
+          I specialize in Python, C++, Typescript, and React and have
+          experience with full-stack software engineering, data science, and video
+          game development. I am incredibly passionate about video game
+          programming and would love to break into the industry!
+        </p>
+        <p>
+          I am currently open to fall/winter internship opportunities as well
+          as full-time work. Connect with me on LinkedIn!
+        </p>
+        <div class="icebreaker">
+          <p>
+            <b>Icebreakers:</b>
+          </p>
+
+          <ul>
+            <li>
+              Favorite
+              <img src="images/film-icon.png" alt="Film" width="20" height="20" />
+              : Christopher Nolan's <i><b>Interstellar</b></i>
+            </li>
+            <li>
+              Favorite
+              <img src="images/book-icon.png" alt="Book" width="20" height="20" />
+              : <i><b>Dark Matter</b></i> by Blake Crouch
+            </li>
+            <li>
+              Favorite
+              <img src="images/game-icon.png" alt="Game" width="20" height="20" />
+              : <i>Horizon Zero Dawn</i>
+            </li>
+          </ul>
         </div>
-        <h1>Alysa Vega</h1>
-        <h4>she/her</h4>
-        <hr />
       </div>
     </div>
-    <div class="main">
-      <div id="about" class="about-section">
-        <a class="section-headers">About Me</a>
-        <div class="about-body">
-          <p>
-            Hi! I'm Alysa Vega, a recent Computer Science graduate from Hunter
-            College with a minor in Media Studies.
-          </p>
-          <p>
-            I specialize in Python, C++, Typescript, and React and have
-            experience with full-stack software engineering, data science, and video
-            game development. I am incredibly passionate about video game
-            programming and would love to break into the industry!
-          </p>
-          <p>
-            I am currently open to fall/winter internship opportunities as well
-            as full-time work. Connect with me on LinkedIn!
-          </p>
-          <div class="icebreaker">
-            <p>
-              <b>Icebreakers:</b>
-            </p>
-
-            <ul>
-              <li>
-                Favorite
-                <img
-                  src="images/film-icon.png"
-                  alt="Film"
-                  width="20"
-                  height="20"
-                />
-                : Christopher Nolan's <i><b>Interstellar</b></i>
-              </li>
-              <li>
-                Favorite
-                <img
-                  src="images/book-icon.png"
-                  alt="Book"
-                  width="20"
-                  height="20"
-                />
-                : <i><b>Dark Matter</b></i> by Blake Crouch
-              </li>
-              <li>
-                Favorite
-                <img
-                  src="images/game-icon.png"
-                  alt="Game"
-                  width="20"
-                  height="20"
-                />
-                : <i>Horizon Zero Dawn</i>
-              </li>
-            </ul>
+    <div id="education">
+      <a class="section-headers">Education</a>
+      <div class="education">
+        <div class="education-heading">
+          <div class="education-title">
+            <h3>BA in Computer Science, Minor in Media Studies</h3>
+          </div>
+          <div class="education-time">
+            <h4>2021-2025</h4>
           </div>
         </div>
-      </div>
-      <div id="education">
-        <a class="section-headers">Education</a>
-        <div class="education">
-          <div class="education-heading">
-            <div class="education-title">
-              <h3>BA in Computer Science, Minor in Media Studies</h3>
-            </div>
-            <div class="education-time">
-              <h4>May 2025</h4>
-            </div>
-          </div>
-          <hr />
-          <div class="education-subheading">
-            <h4>CUNY Hunter College, New York, NY</h4>
-          </div>
-          <div class="education-details">
-            <p>3.90 GPA</p>
-            <p>
-              Graduated Summa Cum Laude with Departmental Honors and Dean's List
-            </p>
-          </div>
-          <div class="education-courses">
+        <hr />
+        <div class="education-subheading">
+          <h4>CUNY Hunter College, New York, NY</h4>
+        </div>
+        <div class="education-details">
+          <p>3.90 GPA</p>
+          <p>
+            Graduated Summa Cum Laude with Departmental Honors and Dean's List
+          </p>
+        </div>
+        <!-- <div class="education-courses">
             <p class="badge">Software Analysis & Design</p>
             <p class="badge">Data Structures</p>
             <p class="badge">Computer Architecture</p>
             <p class="badge">Operating Systems</p>
             <p class="badge">SQL Database Management</p>
             <p class="badge">Concepts in Gaming</p>
+          </div> -->
+      </div>
+    </div>
+    <div id="skills">
+      <a class="section-headers">Skills</a>
+      <div class="skills-body">
+        <div class="skills-type">
+          <h3>Languages</h3>
+          <hr />
+          <div class="skills-figures">
+            <figure>
+              <img src="images/Python_logo.png" alt="Python Logo" />
+              <figcaption>Python</figcaption>
+            </figure>
+            <figure>
+              <img src="images/C++_logo.png" alt="C++ Logo" />
+              <figcaption>C++</figcaption>
+            </figure>
+            <figure>
+              <img src="images/TypeScript_logo.png" alt="TypeScript Logo" />
+              <figcaption>TypeScript</figcaption>
+            </figure>
+            <figure>
+              <img src="images/SQL_logo.png" alt="SQL Logo" />
+              <figcaption>SQL</figcaption>
+            </figure>
+            <figure>
+              <img src="images/JavaScript_logo.png" alt="JavaScript Logo" />
+              <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure>
+              <img src="images/HTML5_logo.png" alt="HTML5 Logo" />
+              <figcaption>HTML5</figcaption>
+            </figure>
+            <figure>
+              <img src="images/CSS3_logo.png" alt="CSS3 Logo" />
+              <figcaption>CSS3</figcaption>
+            </figure>
           </div>
         </div>
-      </div>
-      <div id="skills">
-        <a class="section-headers">Skills</a>
-        <div class="skills-body">
-          <div class="skills-type">
-            <h3>Languages</h3>
-            <hr />
-            <div class="skills-figures">
-              <figure>
-                <img src="images/Python_logo.png" alt="Python Logo" />
-                <figcaption>Python</figcaption>
-              </figure>
-              <figure>
-                <img src="images/C++_logo.png" alt="C++ Logo" />
-                <figcaption>C++</figcaption>
-              </figure>
-              <figure>
-                <img src="images/TypeScript_logo.png" alt="TypeScript Logo" />
-                <figcaption>TypeScript</figcaption>
-              </figure>
-              <figure>
-                <img src="images/SQL_logo.png" alt="SQL Logo" />
-                <figcaption>SQL</figcaption>
-              </figure>
-              <figure>
-                <img src="images/JavaScript_logo.png" alt="JavaScript Logo" />
-                <figcaption>JavaScript</figcaption>
-              </figure>
-              <figure>
-                <img src="images/HTML5_logo.png" alt="HTML5 Logo" />
-                <figcaption>HTML5</figcaption>
-              </figure>
-              <figure>
-                <img src="images/CSS3_logo.png" alt="CSS3 Logo" />
-                <figcaption>CSS3</figcaption>
-              </figure>
-            </div>
+        <div class="skills-type">
+          <h3>Frameworks and Tools</h3>
+          <hr />
+          <div class="skills-figures">
+            <figure>
+              <img src="images/Git_logo.png" alt="Git Logo" />
+              <figcaption>Git</figcaption>
+            </figure>
+            <figure>
+              <img src="images/React_logo.png" alt="React Logo" />
+              <figcaption>React</figcaption>
+            </figure>
+            <figure>
+              <img src="images/Flask_logo.png" alt="Flask Logo" />
+              <figcaption>Flask</figcaption>
+            </figure>
+            <figure>
+              <img class="long-logo" src="images/Pandas_logo.png" alt="Pandas Logo" />
+              <figcaption>Pandas</figcaption>
+            </figure>
+            <figure>
+              <img src="images/MySQL_logo.png" alt="MySQL Logo" />
+              <figcaption>MySQL</figcaption>
+            </figure>
+            <figure>
+              <img src="images/Django_logo.png" alt="Django Logo" />
+              <figcaption>Django</figcaption>
+            </figure>
+            <figure>
+              <img src="images/Bootstrap_logo.png" alt="Bootstrap Logo" />
+              <figcaption>Bootstrap</figcaption>
+            </figure>
           </div>
-          <div class="skills-type">
-            <h3>Frameworks and Tools</h3>
-            <hr />
-            <div class="skills-figures">
-              <figure>
-                <img src="images/Git_logo.png" alt="Git Logo" />
-                <figcaption>Git</figcaption>
-              </figure>
-              <figure>
-                <img src="images/React_logo.png" alt="React Logo" />
-                <figcaption>React</figcaption>
-              </figure>
-              <figure>
-                <img src="images/Flask_logo.png" alt="Flask Logo" />
-                <figcaption>Flask</figcaption>
-              </figure>
-              <figure>
-                <img
-                  class="long-logo"
-                  src="images/Pandas_logo.png"
-                  alt="Pandas Logo"
-                />
-                <figcaption>Pandas</figcaption>
-              </figure>
-              <figure>
-                <img src="images/MySQL_logo.png" alt="MySQL Logo" />
-                <figcaption>MySQL</figcaption>
-              </figure>
-              <figure>
-                <img src="images/Django_logo.png" alt="Django Logo" />
-                <figcaption>Django</figcaption>
-              </figure>
-              <figure>
-                <img src="images/Bootstrap_logo.png" alt="Bootstrap Logo" />
-                <figcaption>Bootstrap</figcaption>
-              </figure>
-            </div>
-          </div>
-          <!-- <div class="skills-type">
+        </div>
+        <!-- <div class="skills-type">
                     <h3>Databases</h3>
                     <hr>
                     <div class="skills-figures">
                     </div>
                 </div> -->
-        </div>
       </div>
-      <div id="experience">
-        <a class="section-headers">Experience</a>
-        <div class="work-body">
-          <div class="experience">
-            <div class="experience-heading">
-              <div class="experience-position">
-                <h3>Software Engineering Intern</h3>
-              </div>
-              <div class="experience-company">
-                <h4>The New York Stem Cell Foundation</h4>
-              </div>
+    </div>
+    <div id="experience">
+      <a class="section-headers">Experience</a>
+      <div class="work-body">
+        <div class="experience">
+          <div class="experience-heading">
+            <div class="experience-position">
+              <h3>Software Engineering Intern</h3>
             </div>
-            <div class="experience-details">
-              <hr />
-              <ul>
-                <li>
-                  Selected for a competitive internship learning about stem cell
-                  research and working collaboratively alongside biologists,
-                  project managers, IT specialists, and operations experts
-                </li>
-                <li>
-                  Using the full stack to develop NYSCF's custom LIMS web
-                  application using C#, Typescript, React, and SQL to optimize
-                  use of lab resources and improve quality of life for
-                  scientists
-                </li>
-              </ul>
-            </div>
-            <div class="experience-tools">
-              <p class="badge">TypeScript</p>
-              <p class="badge">JavaScript</p>
-              <p class="badge">React</p>
-              <p class="badge">C#</p>
-              <p class="badge">Git</p>
-            </div>
-            <div class="experience-footer">
-              <div class="experience-date">
-                <p>June 2025 – Present</p>
-              </div>
-              <div class="experience-location">
-                <p>New York, NY</p>
-              </div>
+            <div class="experience-company">
+              <h4>The New York Stem Cell Foundation</h4>
             </div>
           </div>
-          <div class="experience">
-            <div class="experience-heading">
-              <div class="experience-position">
-                <h3>Data Science Fellow</h3>
-              </div>
-              <div class="experience-company">
-                <h4>CUNY Tech Prep</h4>
-              </div>
-            </div>
-            <div class="experience-details">
-              <hr />
-              <ul>
-                <li>
-                  Selected for a competitive data science fellowship to create
-                  technical projects using Python, Jupyter Notebooks, Pandas,
-                  Numpy, Scikit-learn, and SQL
-                </li>
-                <li>
-                  Participate in weekly courses for exploratory data analysis
-                  (EDA), feature engineering, data processing, statistical
-                  modeling, data visualization, machine learning techniques, and
-                  big data
-                </li>
-              </ul>
-            </div>
-            <div class="experience-tools">
-              <p class="badge">Python</p>
-              <p class="badge">Jupyter Notebooks</p>
-              <p class="badge">Pandas</p>
-              <p class="badge">NumPy</p>
-              <p class="badge">Git</p>
-              <p class="badge">Scikit-learn</p>
-              <p class="badge">LLMs</p>
-              <p class="badge">Information Theory</p>
-              <p class="badge">Machine Learning</p>
-            </div>
-            <div class="experience-footer">
-              <div class="experience-date">
-                <p>July 2024 – Present</p>
-              </div>
-              <div class="experience-location">
-                <p>New York, NY</p>
-              </div>
-            </div>
-          </div>
-          <div class="experience">
-            <div class="experience-heading">
-              <div class="experience-position">
-                <h3>Kodely Leader</h3>
-              </div>
-              <div class="experience-company">
-                <h4>Kodely</h4>
-              </div>
-            </div>
-            <div class="experience-details">
-              <hr />
-              <ul>
-                <li>
-                  Led 6 workshops on game design, coding, and app dev for K–5
-                  students, concluding in final projects and parent showcases to
-                  strengthen tech literacy and design thinking skills
-                </li>
-                <li>
-                  Facilitate workshops using Microsoft Makecode Arcade and
-                  micro:bit, Minecraft Education, and MIT App Inventor
-                </li>
-              </ul>
-            </div>
-            <div class="experience-tools">
-              <p class="badge">Leadership</p>
-              <p class="badge">Education</p>
-              <p class="badge">Communication</p>
-              <p class="badge">Problem Solving</p>
-              <p class="badge">Game Design</p>
-            </div>
-            <div class="experience-footer">
-              <div class="experience-date">
-                <p>Dec 2022 – Present</p>
-              </div>
-              <div class="experience-location">
-                <p>New York, NY</p>
-              </div>
-            </div>
-          </div>
-          <div class="experience">
-            <div class="experience-heading">
-              <div class="experience-position">
-                <h3>Tech Developer Intern</h3>
-              </div>
-              <div class="experience-company">
-                <h4>Sponsors for Educational Opportunity</h4>
-              </div>
-            </div>
-            <div class="experience-details">
-              <hr />
-              <ul>
-                <li>
-                  Completed 300+ hours of computer science and software
-                  engineering training focused on data structures, algorithms,
-                  and full-stack web development
-                </li>
-                <li>
-                  Designed, tested, and implemented full-stack web application
-                  using Python, Flask, and MySQL and frontend interface using
-                  HTML, JavaScript, and CSS
-                </li>
-              </ul>
-            </div>
-            <div class="experience-tools">
-              <p class="badge">Python</p>
-              <p class="badge">JavaScript</p>
-              <p class="badge">MySQL</p>
-              <p class="badge">Flask</p>
-              <p class="badge">HTML</p>
-              <p class="badge">CSS</p>
-              <p class="badge">Django</p>
-              <p class="badge">Bootstrap</p>
-              <p class="badge">Git</p>
-            </div>
-            <div class="experience-footer">
-              <div class="experience-date">
-                <p>June – Aug 2023</p>
-              </div>
-              <div class="experience-location">
-                <p>Remote</p>
-              </div>
-            </div>
-          </div>
-          <div class="experience">
-            <div class="experience-heading">
-              <div class="experience-position">
-                <h3>Web/Mobile App Developer Intern</h3>
-              </div>
-              <div class="experience-company">
-                <h4>Tech Incubator at Queens College</h4>
-              </div>
-            </div>
-            <div class="experience-details">
-              <hr />
-              <ul>
-                <li>
-                  100+ hours of experience in web/app development through
-                  personal and client projects
-                </li>
-                <li>
-                  Built apps using JavaScript, React Native, JavaScript, HTML,
-                  CSS, Wordpress, MyWebAR, and Glide
-                </li>
-              </ul>
-            </div>
-            <div class="experience-tools">
-              <p class="badge">JavaScript</p>
-              <p class="badge">React Native</p>
-              <p class="badge">HTML</p>
-              <p class="badge">CSS</p>
-              <p class="badge">Wordpress</p>
-              <p class="badge">MyWebAR</p>
-              <p class="badge">Glide</p>
-            </div>
-            <div class="experience-footer">
-              <div class="experience-date">
-                <p>Feb – May 2023</p>
-              </div>
-              <div class="experience-location">
-                <p>Remote</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="projects">
-        <a class="section-headers">Projects</a>
-        <div class="projects">
-          <div class="project-heading">
-            <div class="project-title">
-              <h3>
-                <a href="https://gameboxd-kappa.vercel.app/">Gameboxd</a>
-              </h3>
-            </div>
-            <div class="project-time">
-              <h4>Sept – Dec 2024</h4>
-            </div>
-          </div>
-          <div class="project-details">
+          <div class="experience-details">
             <hr />
             <ul>
               <li>
-                Video game review web application that allows users to create
-                profiles to review and log games, and add friends to view user
-                activity; built using React, Python, Typescript, HTML/CSS, and
-                Google Firebase
+                Worked as full-stack developer on NYSCF's custom LIMS web application to optimize use of lab resources
+                and improve quality of life for scientists
               </li>
               <li>
-                Worked in team of 5, personally worked on backend Python API
-                calls and helpers as well as frontend React and TypeScript
-                backend game fetches and styling; collaborated using Git and
-                Asana
+                Regularly lead progress meetings in collaboration with gene scientists, engineers, and project managers
+                for user feedback and validation testing
+              </li>
+              <li>
+                Quickly learned unfamiliar frameworks and databases, contributed to complex code, and conducted software
+                testing and debugging
               </li>
             </ul>
           </div>
-          <div class="project-tools">
-            <p class="badge">React</p>
+          <div class="experience-tools">
             <p class="badge">TypeScript</p>
-            <p class="badge">Python</p>
-            <p class="badge">Firebase</p>
-            <p class="badge">API</p>
-            <p class="badge">HTML</p>
-            <p class="badge">CSS</p>
-            <p class="badge">SQL</p>
+            <p class="badge">JavaScript</p>
+            <p class="badge">React</p>
+            <p class="badge">C#</p>
             <p class="badge">Git</p>
-            <p class="badge">Full-Stack</p>
+            <p class="badge">SQL</p>
+            <p class="badge">Apollo Client</p>
+            <p class="badge">GraphQL</p>
+            <p class="badge">Amazon Web Services</p>
+            <p class="badge">Project Management</p>
+          </div>
+          <div class="experience-footer">
+            <div class="experience-date">
+              <p>June – Aug 2025</p>
+            </div>
+            <div class="experience-location">
+              <p>New York, NY</p>
+            </div>
           </div>
         </div>
-        <div class="projects">
-          <div class="project-heading">
-            <div class="project-title">
-              <h3>
-                <a href="https://github.com/alyliann/Cheatdle">Cheatdle</a>
-              </h3>
+        <div class="experience">
+          <div class="experience-heading">
+            <div class="experience-position">
+              <h3>Kodely Leader</h3>
             </div>
-            <div class="project-time">
-              <h4>Oct – Dec 2024</h4>
+            <div class="experience-company">
+              <h4>Kodely</h4>
             </div>
           </div>
-          <div class="project-details">
+          <div class="experience-details">
             <hr />
             <ul>
               <li>
-                Application to maximize efficiency when playing Wordle through
-                predictive modeling, sentiment analysis, random forest
-                regressors, and retrieval techniques for an interactive user
-                experience
-              </li>
-              <li>
-                Worked in team of 3, personally implemented "Wordle" tab using
-                Python, Streamlit, Pandas, NumPy, Pygame, and information theory
+                Led workshops on game design, microcontroller programming, and app development for K-5 students,
+                concluding in final projects and parent showcases to strengthen tech literacy and design thinking skills
               </li>
             </ul>
           </div>
-          <div class="project-tools">
+          <div class="experience-tools">
+            <p class="badge">Leadership</p>
+            <p class="badge">Education</p>
+            <p class="badge">Communication</p>
+            <p class="badge">Problem Solving</p>
+            <p class="badge">Game Design</p>
+          </div>
+          <div class="experience-footer">
+            <div class="experience-date">
+              <p>Dec 2022 – June 2025</p>
+            </div>
+            <div class="experience-location">
+              <p>New York, NY</p>
+            </div>
+          </div>
+        </div>
+        <div class="experience">
+          <div class="experience-heading">
+            <div class="experience-position">
+              <h3>Data Science Fellow</h3>
+            </div>
+            <div class="experience-company">
+              <h4>CUNY Tech Prep</h4>
+            </div>
+          </div>
+          <div class="experience-details">
+            <hr />
+            <ul>
+              <li>
+                Selected for a competitive data science fellowship to create
+                technical projects using Python, Jupyter Notebooks, Pandas,
+                Numpy, Scikit-learn, and SQL
+              </li>
+              <li>
+                Participate in weekly courses for exploratory data analysis
+                (EDA), feature engineering, data processing, statistical
+                modeling, data visualization, machine learning techniques, and
+                big data
+              </li>
+            </ul>
+          </div>
+          <div class="experience-tools">
             <p class="badge">Python</p>
-            <p class="badge">Streamlit</p>
-            <p class="badge">Hugging Face</p>
+            <p class="badge">Jupyter Notebooks</p>
             <p class="badge">Pandas</p>
             <p class="badge">NumPy</p>
-            <p class="badge">Pygame</p>
+            <p class="badge">Git</p>
+            <p class="badge">Scikit-learn</p>
+            <p class="badge">LLMs</p>
             <p class="badge">Information Theory</p>
+            <p class="badge">Machine Learning</p>
+          </div>
+          <div class="experience-footer">
+            <div class="experience-date">
+              <p>July 2024 – May 2025</p>
+            </div>
+            <div class="experience-location">
+              <p>New York, NY</p>
+            </div>
           </div>
         </div>
-        <div class="projects">
-          <div class="project-heading">
-            <div class="project-title">
-              <h3>
-                <a href="https://github.com/alyliann/PantryPlatters"
-                  >PantryPlatters</a
-                >
-              </h3>
+        <div class="experience">
+          <div class="experience-heading">
+            <div class="experience-position">
+              <h3>Tech Developer Intern</h3>
             </div>
-            <div class="project-time">
-              <h4>July 2023</h4>
+            <div class="experience-company">
+              <h4>Sponsors for Educational Opportunity</h4>
             </div>
           </div>
-          <div class="project-details">
+          <div class="experience-details">
             <hr />
             <ul>
               <li>
-                Interactive “What’s in my fridge?” web application that finds
-                and displays recipes based on user-inputted available
-                ingredients
+                Completed 300+ hours of computer science and software
+                engineering training focused on data structures, algorithms,
+                and full-stack web development
               </li>
               <li>
-                Worked in team of 4, personally implemented backend API fetching
-                and routes, unit testing on Git, and deployment
+                Designed, tested, and implemented full-stack web application
+                using Python, Flask, and MySQL and frontend interface using
+                HTML, JavaScript, and CSS
               </li>
             </ul>
           </div>
-          <div class="project-tools">
+          <div class="experience-tools">
             <p class="badge">Python</p>
+            <p class="badge">JavaScript</p>
+            <p class="badge">MySQL</p>
+            <p class="badge">Flask</p>
             <p class="badge">HTML</p>
             <p class="badge">CSS</p>
-            <p class="badge">API</p>
-            <p class="badge">Flask</p>
             <p class="badge">Django</p>
-            <p class="badge">SQLAlchemy</p>
-            <p class="badge">PythonAnywhere</p>
+            <p class="badge">Bootstrap</p>
             <p class="badge">Git</p>
           </div>
+          <div class="experience-footer">
+            <div class="experience-date">
+              <p>June – Aug 2023</p>
+            </div>
+            <div class="experience-location">
+              <p>Remote</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div id="links">
-        <a class="section-headers links-header">Links</a>
-        <div class="links-body">
-          <a
-            class="btn linkedin-btn"
-            href="https://www.linkedin.com/in/alysavega/"
-          >
-            <img
-              src="images/LinkedIn_logo.png"
-              alt="LinkedIn logo"
-              width="18"
-              height="20"
-            />
-            LinkedIn
-          </a>
-          <a class="btn github-btn" href="https://github.com/alyliann/">
-            <img
-              src="images/GitHub_logo.png"
-              alt="GitHub logo"
-              width="18"
-              height="20"
-            />
-            GitHub
-          </a>
-          <a class="btn leetcode-btn" href="https://leetcode.com/u/alyliann/">
-            <img
-              src="images/LeetCode_logo.png"
-              alt="LeetCode logo"
-              width="18"
-              height="20"
-            />
-            LeetCode
-          </a>
-          <a class="btn btn-info itchio-btn" href="https://alyliann.itch.io/">
-            <img
-              src="images/Itchio_logo.png"
-              alt="itch.io logo"
-              width="18"
-              height="20"
-            />
-            itch.io
-          </a>
+        <div class="experience">
+          <div class="experience-heading">
+            <div class="experience-position">
+              <h3>Web/Mobile App Developer Intern</h3>
+            </div>
+            <div class="experience-company">
+              <h4>Tech Incubator at Queens College</h4>
+            </div>
+          </div>
+          <div class="experience-details">
+            <hr />
+            <ul>
+              <li>
+                100+ hours of experience in web/app development through
+                personal and client projects
+              </li>
+              <li>
+                Built apps using JavaScript, React Native, JavaScript, HTML,
+                CSS, Wordpress, MyWebAR, and Glide
+              </li>
+            </ul>
+          </div>
+          <div class="experience-tools">
+            <p class="badge">JavaScript</p>
+            <p class="badge">React Native</p>
+            <p class="badge">HTML</p>
+            <p class="badge">CSS</p>
+            <p class="badge">Wordpress</p>
+            <p class="badge">MyWebAR</p>
+            <p class="badge">Glide</p>
+          </div>
+          <div class="experience-footer">
+            <div class="experience-date">
+              <p>Feb – May 2023</p>
+            </div>
+            <div class="experience-location">
+              <p>Remote</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <script src="main.js"></script>
-  </body>
+    <div id="projects">
+      <a class="section-headers">Projects</a>
+      <div class="projects">
+        <div class="project-heading">
+          <div class="project-title">
+            <h3>
+              Nucleofection Worklist Generator
+            </h3>
+          </div>
+          <div class="project-time">
+            <h4>June – Aug 2025</h4>
+          </div>
+        </div>
+        <div class="project-details">
+          <hr />
+          <ul>
+            <li>
+              Interactive user-interface developed with Typescript and React frontend and C# backend, utilizing tools
+              like Redux state management, Apollo Client, GraphQL, and Amazon Web Services
+            </li>
+            <li>
+              Automates communication between gene scientists and liquid-handling robots to reduce user error, and cut
+              down preparation time and cost to handle cells
+            </li>
+            <li>
+              Created custom SQL queries to sanitize and collect data for unique barcode generation to maintain proper
+              lab resource management
+            </li>
+          </ul>
+        </div>
+        <div class="project-tools">
+          <p class="badge">TypeScript</p>
+          <p class="badge">JavaScript</p>
+          <p class="badge">React</p>
+          <p class="badge">C#</p>
+          <p class="badge">Git</p>
+          <p class="badge">SQL</p>
+          <p class="badge">Apollo Client</p>
+          <p class="badge">GraphQL</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project-heading">
+          <div class="project-title">
+            <h3>
+              <a href="https://gameboxd-kappa.vercel.app/">Gameboxd</a>
+            </h3>
+          </div>
+          <div class="project-time">
+            <h4>Sept – Dec 2024</h4>
+          </div>
+        </div>
+        <div class="project-details">
+          <hr />
+          <ul>
+            <li>
+              Video game review web application that allows users to create
+              profiles to review and log games, and add friends to view user
+              activity; built using React, Python, Typescript, HTML/CSS, and
+              Google Firebase
+            </li>
+            <li>
+              Worked in team of 5, personally worked on backend Python API
+              calls and helpers as well as frontend React and TypeScript
+              backend game fetches and styling; collaborated using Git and
+              Asana
+            </li>
+          </ul>
+        </div>
+        <div class="project-tools">
+          <p class="badge">React</p>
+          <p class="badge">TypeScript</p>
+          <p class="badge">Python</p>
+          <p class="badge">Firebase</p>
+          <p class="badge">API</p>
+          <p class="badge">HTML</p>
+          <p class="badge">CSS</p>
+          <p class="badge">SQL</p>
+          <p class="badge">Git</p>
+          <p class="badge">Full-Stack</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project-heading">
+          <div class="project-title">
+            <h3>
+              <a href="https://github.com/alyliann/Cheatdle">Cheatdle</a>
+            </h3>
+          </div>
+          <div class="project-time">
+            <h4>Oct – Dec 2024</h4>
+          </div>
+        </div>
+        <div class="project-details">
+          <hr />
+          <ul>
+            <li>
+              Application to maximize efficiency when playing Wordle through
+              predictive modeling, sentiment analysis, random forest
+              regressors, and retrieval techniques for an interactive user
+              experience
+            </li>
+            <li>
+              Worked in team of 3, personally implemented "Wordle" tab using
+              Python, Streamlit, Pandas, NumPy, Pygame, and information theory
+            </li>
+          </ul>
+        </div>
+        <div class="project-tools">
+          <p class="badge">Python</p>
+          <p class="badge">Streamlit</p>
+          <p class="badge">Hugging Face</p>
+          <p class="badge">Pandas</p>
+          <p class="badge">NumPy</p>
+          <p class="badge">Pygame</p>
+          <p class="badge">Information Theory</p>
+        </div>
+      </div>
+      <div class="projects">
+        <div class="project-heading">
+          <div class="project-title">
+            <h3>
+              <a href="https://github.com/alyliann/PantryPlatters">PantryPlatters</a>
+            </h3>
+          </div>
+          <div class="project-time">
+            <h4>July 2023</h4>
+          </div>
+        </div>
+        <div class="project-details">
+          <hr />
+          <ul>
+            <li>
+              Interactive “What’s in my fridge?” web application that finds
+              and displays recipes based on user-inputted available
+              ingredients
+            </li>
+            <li>
+              Worked in team of 4, personally implemented backend API fetching
+              and routes, unit testing on Git, and deployment
+            </li>
+          </ul>
+        </div>
+        <div class="project-tools">
+          <p class="badge">Python</p>
+          <p class="badge">HTML</p>
+          <p class="badge">CSS</p>
+          <p class="badge">API</p>
+          <p class="badge">Flask</p>
+          <p class="badge">Django</p>
+          <p class="badge">SQLAlchemy</p>
+          <p class="badge">PythonAnywhere</p>
+          <p class="badge">Git</p>
+        </div>
+      </div>
+    </div>
+    <div id="links">
+      <a class="section-headers links-header">Links</a>
+      <div class="links-body">
+        <a class="btn linkedin-btn" href="https://www.linkedin.com/in/alysavega/">
+          <img src="images/LinkedIn_logo.png" alt="LinkedIn logo" width="18" height="20" />
+          LinkedIn
+        </a>
+        <a class="btn github-btn" href="https://github.com/alyliann/">
+          <img src="images/GitHub_logo.png" alt="GitHub logo" width="18" height="20" />
+          GitHub
+        </a>
+        <a class="btn leetcode-btn" href="https://leetcode.com/u/alyliann/">
+          <img src="images/LeetCode_logo.png" alt="LeetCode logo" width="18" height="20" />
+          LeetCode
+        </a>
+        <a class="btn btn-info itchio-btn" href="https://alyliann.itch.io/">
+          <img src="images/Itchio_logo.png" alt="itch.io logo" width="18" height="20" />
+          itch.io
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
 </html>
